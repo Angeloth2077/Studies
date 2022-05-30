@@ -1,3 +1,31 @@
 * {
-    background-color: grey;
+    background-color: lightblue;
+    font-family:        Helvetica;
 }
+body {
+    margin:             0px;
+}
+
+.test-header {
+    margin:             0px;
+    height:             100px;
+    width:              100%;
+    background-color: lightgreen;
+
+}
+.navbar {
+    height:             48px;
+    width:              100%;
+    background-color: lightcoral;
+}
+.navbar:hover {
+    background-color: lightgreen;
+}
+#logo {
+    object-position:    left-top;
+    scale:              0.1;
+}
+.navbar_List li:first-child {
+    display:            inline;
+}
+
