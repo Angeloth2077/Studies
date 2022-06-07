@@ -1,31 +1,48 @@
 * {
-    background-color: lightblue;
-    font-family:        Helvetica;
+    background-color:         lightblue;
+    font-family:                Helvetica;
+}                            
+body {                       
+    margin:                     0px;
+}                            
+                                                             
+.test-header {               
+    margin:                     0px;
+    height:                     100px;
+    width:                      100%;
+    background-color:         lightgreen;
+                             
+}                            
+.navbar {                    
+    height:                     48px;
+    width:                      100%;
+    background-color:         lightcoral;
+    display:                    flex;
+    justify-content:            space-between;
+}                            
+.navbar:hover {              
+    background-color:         lightgreen;
+}                            
+.logo {                      
+    display:                    inline-block;
+    align-items:                center;
+    height:                     inherit;
+    width:                      auto;
+    left:                       10px;
+    padding:                    0px;
+    position:                   relative;
+    background-color:           inherit;
+}                            
+.navbarList {
+    align-items:                center;
+    background-color:           inherit;
+    position:                   relative;
+    padding:                    0px;
 }
-body {
-    margin:             0px;
-}
-
-.test-header {
-    margin:             0px;
-    height:             100px;
-    width:              100%;
-    background-color: lightgreen;
-
-}
-.navbar {
-    height:             48px;
-    width:              100%;
-    background-color: lightcoral;
-}
-.navbar:hover {
-    background-color: lightgreen;
-}
-#logo {
-    object-position:    left-top;
-    scale:              0.1;
-}
-.navbar_List li:first-child {
-    display:            inline;
+.navbarList li {                
+    background-color:           inherit;
+    padding-right:              20px;
+    display:                    inline;
+    list-style:                 none;
 }
 
