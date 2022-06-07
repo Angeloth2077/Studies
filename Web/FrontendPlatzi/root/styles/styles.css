@@ -1,0 +1,100 @@
+@import url("themes/light.css");
+:root {
+    --sm: 14px;
+    --md: 16px;
+    --lg: 18px;
+}
+* {
+    margin: 0px;
+    font-family: "Quicksand";
+}
+body {
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+}
+.mainLogo {
+    height: auto;
+    width: 60%;
+    margin-top: 10%;
+}
+.login {
+    margin-top: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-between;
+}
+.title {
+    font-size: 8vw;
+}
+.subtitle {
+    color: var(--grey);
+    margin-top: 7%;
+    font-size: 5vw;
+}
+.inputs {
+    margin-top: 25%;
+    display: flex;
+    flex-direction: column;
+}
+.emailTitle {
+    font-size: 4vw;
+}
+.passwordTitle {
+    margin-top: 15%;
+    font-size: 4vw;
+}
+.emailInput {
+    border-radius: 10px;
+    height: 7vw;
+    width: 70vw;
+    border-width: 0px;
+    background-color: var(--textInput);
+}
+.emailInput:focus {
+    box-shadow: 0px 0px 15px 1px var(--black);
+    outline: none;
+}
+.passwordInput {
+    border-radius: 10px;
+    height: 7vw;
+    width: 70vw;
+    border-width: 0px;
+    background-color: var(--textInput);
+}
+.passwordInput:focus {
+    box-shadow: 0px 0px 15px 1px var(--black);
+    outline: none;
+}
+.enter {
+    height: 15vw;
+    width: 30vw;
+    border: none;
+    font-size: 4vw;
+    background-color: var(--accent);
+    margin-top: 25%;
+    border-radius: 8px;
+}
+.enter span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.enter span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+.enter:hover span {
+  padding-right: 25px;
+}
+.enter:hover span:after {
+  opacity: 1;
+  right: 0;
+}

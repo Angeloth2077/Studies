@@ -1,0 +1,12 @@
+.container {
+    background-color: lightblue;
+    padding: 10px;
+    display: grid;
+    gap: 7px;
+    grid-template-columns:  100fr 100fr 100fr 100fr ;
+    grid-auto-flow: row;
+    grid-template-rows: 70px 70px;
+}
+div {
+    background-color: lightcoral;
+}
