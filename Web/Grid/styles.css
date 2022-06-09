@@ -3,10 +3,40 @@
     padding: 10px;
     display: grid;
     gap: 7px;
-    grid-template-columns:  100fr 100fr 100fr 100fr ;
     grid-auto-flow: row;
-    grid-template-rows: 70px 70px;
+    grid-template-columns:  100fr 100fr 100fr 100fr ;
+    grid-template-rows: 70px 70px 70px 20px 70px;
+    grid-template-areas: 
+        "header header header header" 
+        "side side side side"
+        "footer footer footer footer"
+        "content1 content2 content3 content4"
+        "bot bot bot bot";
 }
 div {
     background-color: lightcoral;
+}
+.item-1 {
+    grid-area: header;
+}
+.item-2 {
+    grid-area: side;
+}
+.item-3 {
+    grid-area: footer;
+}
+.item-4 {
+    grid-area: content1;
+}
+.item-5 {
+    grid-area: content2;
+}
+.item-6 {
+    grid-area: content3;
+}
+.item-7 {
+    grid-area: content4;
+}
+.item-8 {
+    grid-area: bot;
 }
