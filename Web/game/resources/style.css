@@ -1,0 +1,53 @@
+body {
+    margin: 0px;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    place-content: center;
+}
+.phone {
+    position: relative;
+    border: 8px solid black;
+    border-radius: 30px;
+    width: 300px;
+    height: 500px;
+    margin-top: 30px;
+    background-color: rgb(194, 243, 250);
+    box-shadow: 0 0 20px 20px rgba(0, 0, 0, 0.2);
+}
+.layer-1 {
+    position: absolute;
+    z-index: 1;
+}
+.layer-2 {
+    position: absolute;
+    z-index: 2;
+}
+.layer-3 {
+    position: absolute;
+    z-index: 3;
+}
+.layer-4 {
+    position: absolute;
+    z-index: 4;
+}
+.layer-5 {
+    position: absolute;
+    z-index: 5;
+}
+.layer-6 {
+    position: absolute;
+    z-index: 6;
+}
+.layer-7 {
+    position: absolute;
+    z-index: 7;
+}
+.layer-8 {
+    position: absolute;
+    z-index: 8;
+}
+.layer-9 {
+    position: absolute;
+    z-index: 9;
+}
