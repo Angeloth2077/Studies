@@ -5,6 +5,9 @@ body {
     display: flex;
     place-content: center;
 }
+div {
+    background-color: brown;
+}
 .phone {
     position: relative;
     border: 8px solid black;
@@ -12,20 +15,44 @@ body {
     width: 300px;
     height: 500px;
     margin-top: 30px;
-    background-color: rgb(194, 243, 250);
+    background-color: rgb(217, 247, 252);
     box-shadow: 0 0 20px 20px rgba(0, 0, 0, 0.2);
 }
 .layer-1 {
     position: absolute;
     z-index: 1;
 }
+.first {
+    position: inherit;
+    background-color: brown;
+    width: 200px;
+    height: 350px;
+    margin-top: 150px;
+    margin-left: 20px;
+}
 .layer-2 {
     position: absolute;
     z-index: 2;
 }
+.second {
+    position: inherit;
+    background-color: brown;
+    width: 200px;
+    height: 250px;
+    margin-top: 250px;
+    margin-left: 80px;
+}
 .layer-3 {
     position: absolute;
     z-index: 3;
+}
+.third {
+    position: inherit;
+    background-color: brown;
+    width: 200px;
+    height: 150px;
+    margin-top: 350px;
+    margin-left: 40px;
 }
 .layer-4 {
     position: absolute;

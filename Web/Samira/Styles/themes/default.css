@@ -1,0 +1,15 @@
+:root {
+    --background: #303030;
+    --background-dark: #212121;
+    --accent: #FA0000;
+    --front-gray: #797979;
+    --background-red: #6C0000;
+}
+@font-face {
+    font-family: text;
+    src: url("../resources/BellGothicStd-Light.otf");
+}
+@font-face {
+    font-family: title;
+    src: url("../resources/Olondona.otf");
+}
