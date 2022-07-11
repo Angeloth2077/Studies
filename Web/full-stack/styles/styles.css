@@ -1,0 +1,101 @@
+:root {
+    --background: #001727;
+    --frontground: #FF00AA;
+}
+
+
+/*===================================================
+                    Coloring 
+=========================================================== */
+body {
+    background-color: var(--background);
+}
+button {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 2vw;
+    color: var(--frontground);
+    background-color: var(--background);
+    border: 5px solid var(--frontground);
+    border-radius: 15px;
+    width: 10%;
+    margin-left: 2%;
+    margin-right: 2%;
+    transition: all 0.1s;
+}
+p {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 2vw;
+    color: var(--frontground);
+}
+h1 {
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 5vw;
+    color: var(--frontground);
+    display: inline;
+}
+.number-section {
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 7vw;
+    color: var(--frontground);
+}
+
+/*=============================================================
+                    Positioning
+===============================================================*/
+.container {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.text-section {
+    display: inherit;
+    flex-direction: column;
+    align-items: center;
+}
+.buttons {
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.neon:hover {
+    box-shadow: 0 0 50px var(--frontground), 0 0 40px var(--frontground), 0 0 5px var(--frontground), 0 0 1vw var(--frontground), 0 0 5px var(--frontground);
+    color: var(--background);
+    background-color: var(--frontground);
+    z-index: 2;
+}
+.neon-text {
+    text-shadow: 0 0 50px var(--frontground), 0 0 40px var(--frontground), 0 0 5px var(--frontground), 0 0 1vw var(--frontground), 0 0 5px var(--frontground);
+}
+.add-btn:hover .reflection-left {
+    background-color: var(--frontground);
+    width: 9%;
+    z-index: 1;
+    position: absolute;
+    height: 1vw;
+    transform: perspective(3em) rotateX(70deg) translate(0, 250%) scale(0.9, 1.4) ;
+    margin-top: 2%;
+    filter: blur(10px);
+}
+.sub-btn:hover .reflection-center {
+    background-color: var(--frontground);
+    width: 9%;
+    height: 1vw;
+    z-index: 1;
+    transform: perspective(3em) rotateX(70deg) translate(0, 250%)  scale(0.9, 1.4);
+    margin-top: 2%;
+    filter: blur(10px);
+    position: absolute;
+}
+.res-btn:hover .reflection-right {
+    background-color: var(--frontground);
+    z-index: 1;
+    width: 9%;
+    height: 1vw;
+    transform: perspective(3em) rotateX(70deg) translate(0, 250%) scale(0.9, 1.4);
+    margin-top: 2%;
+    filter: blur(10px);
+    position: absolute;
+}
